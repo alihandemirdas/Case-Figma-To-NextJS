@@ -35,6 +35,6 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/kullaniciadi/devcase.git
-cd devcase
+[git clone https://github.com/alihandemirdas/Case-Figma-To-NextJS.git](https://github.com/alihandemirdas/Case-Figma-To-NextJS)
+cd Case-Figma-To-NextJS
 npm run dev
