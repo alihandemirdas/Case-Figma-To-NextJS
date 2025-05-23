@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevCase | Figma to Next.js
 
-## Getting Started
+Proje, **Next.js** , **TypeScript** ve **Tailwind CSS** kullanılarak geliştirilmiştir. Ürün içerikleri Fetch API yardımı ile getirilmiştir. Responsive bir tasarım yapılmış ve mobil uyumludur. State management olarak Context API kullanılmış ve veri bu şekilde dağıtılmıştır. Component odaklı bir anlayışla, pixel perfect bir tasarıma ulaşılmaya çalışılmıştır.
 
-First, run the development server:
+Tasarımdaki ürün başlıklarıyla, api servisindeki data kategorileri eşleşmediği için uygun kategoriler eşleştirilerek doğru bir şekilde gösterilmeye çalışılmıştır.
 
+Live Demo:
+
+## Kullanılan Teknolojiler
+
+### Ana Teknolojiler
+- **React**: Kullanıcı arayüzü oluşturmak için.
+- **Next.js**: Sunucu tarafı render (SSR) ve statik site oluşturma (SSG) için.
+- **TypeScript**: Daha güvenli ve ölçeklenebilir bir kod tabanı için.
+- **Tailwind CSS**: Hızlı ve özelleştirilebilir stil oluşturmak için.
+
+### Ekstra Paketler ve Araçlar
+- **Lucide Icons**: Modern ve özelleştirilebilir ikonlar.
+- **@svgr/webpack**: SVG dosyalarını React bileşenleri olarak kullanmak için.
+- **React Context API**: Uygulama genelinde durum yönetimi için.
+- **ESLint ve Prettier**: Kod kalitesini artırmak ve kod stilini tutarlı hale getirmek için.
+- **Fetch API**: API isteklerini gerçekleştirmek için.
+
+---
+
+## Gereksinimler
+
+Projeyi çalıştırmadan önce aşağıdaki araçların sisteminizde kurulu olduğundan emin olun:
+- **Node.js** (v16 veya üzeri)
+- **npm** veya **yarn** (paket yöneticisi)
+
+## Kurulum
+
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+### 1. Depoyu Klonlayın
 ```bash
+git clone https://github.com/kullaniciadi/devcase.git
+cd devcase
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
