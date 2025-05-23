@@ -12,8 +12,6 @@ import {
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const handleToggle = () => setDarkMode(!darkMode);
-
   return (
     <header className="py-[20px] bg-white flex items-center justify-between px-4 rounded-[10px]">
       <div className="flex flex-col items-start justify-center">

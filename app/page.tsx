@@ -4,7 +4,6 @@ import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import CardHeader from "@/components/CardHeader";
 import AllProducts from "@/components/AllProducts";
-import Table from "@/components/Table";
 
 export default function Home() {
   const [isSidebarOpen, setSidebarOpen] = useState(true);

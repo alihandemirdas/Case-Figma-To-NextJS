@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { LucideIcon, Plus, Search } from "lucide-react";
+import { Plus, Search } from "lucide-react";
 import SidebarButtonCard from "./SidebarButtonCard";
 
 const buttons: {

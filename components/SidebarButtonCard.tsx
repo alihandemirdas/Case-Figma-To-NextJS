@@ -5,7 +5,6 @@ import {
   Home,
   Settings,
   ChevronDown,
-  ChevronRight,
   User,
   Folder,
   BadgeCheck,

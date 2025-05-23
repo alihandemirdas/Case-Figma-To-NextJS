@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useProductContext } from "../context/ProductContext";
-import { mockProducts } from "../mock/products";
 import {
   BadgeCheck,
   CircleSlash,
