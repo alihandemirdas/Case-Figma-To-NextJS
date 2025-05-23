@@ -12,7 +12,6 @@ import {
 
 export default function Table() {
   const [selectedRows, setSelectedRows] = useState<string[]>([]);
-  const [truemu, setTrueMu] = useState<boolean>(false);
   const { products, currentPage, totalPages, totalItems, loadProducts } =
     useProductContext();
 
